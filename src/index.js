@@ -5,7 +5,7 @@ let destination = document.querySelector("#root");
 
 ReactDOM.render(
   <div>
-    <IPAdress />
+    <IPAdress ip={this.state.ipadress} />
   </div>,
   destination
 );

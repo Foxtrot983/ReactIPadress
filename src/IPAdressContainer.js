@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 let xhr;
 
-class IPAdress extends Component {
+class IPAdressContainer extends Component {
   constructor(props) {
     super(props);
 
@@ -37,4 +37,4 @@ class IPAdress extends Component {
   }
 }
 
-export default IPAdress;
+export default IPAdressContainer;
