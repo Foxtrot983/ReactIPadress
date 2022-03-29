@@ -33,7 +33,7 @@ class IPAdress extends Component {
   }
 
   render() {
-    return <p>Test</p>;
+    return <div>{this.state.ipadress}</div>;
   }
 }
 
